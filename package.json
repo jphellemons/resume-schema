@@ -1,5 +1,5 @@
 {
-  "name": "resume-schema",
+  "name": "@partech/resume-schema",
   "version": "0.0.16",
   "description": "JSON Resume Schema",
   "main": "validator.js",
@@ -20,14 +20,20 @@
     "validator.js"
   ],
   "dependencies": {
-    "z-schema": "~3.19.0"
+    "z-schema": "~3.24.2"
   },
   "devDependencies": {
     "promise": "^8.0.1",
-    "tap-spec": "^4.1.1",
+    "tap-spec": "^5.0.0",
     "tape": "^4.6.3"
   },
   "engines": {
     "node": ">=0.10"
-  }
+  },
+  "homepage": "https://github.com/jsonresume/resume-schema#readme",
+  "directories": {
+    "example": "examples",
+    "test": "test"
+  },
+  "author": ""
 }
